@@ -37,7 +37,8 @@ Before you begin the tasks that are described in this article, review this artic
 
 > [!IMPORTANT]
 > Clustering SAP ASCS/SCS instances by using a file share is supported for SAP NetWeaver 7.40 (and later), with SAP Kernel 7.49 (and later).
->
+> 
+> Scale-out File-Server and SAP ASCS/SCS must not be installed on the same cluster. Build a separate Cluster for Scale-out File-Server.
 
 
 ## Windows Server failover clustering in Azure
