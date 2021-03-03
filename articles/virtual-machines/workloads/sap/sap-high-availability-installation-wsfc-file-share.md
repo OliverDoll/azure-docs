@@ -318,7 +318,6 @@ Update parameters in the SAP ASCS/SCS instance profile \<SID>_ASCS/SCS\<Nr>_\<Ho
 | --- | --- |
 | gw/netstat_once | **0** |
 | enque/encni/set_so_keepalive  | **true** |
-| service/ha_check_node | **1** |
 
 Parameter `enque/encni/set_so_keepalive` is only needed if using ENSA1.  
 Restart the SAP ASCS/SCS instance. 
